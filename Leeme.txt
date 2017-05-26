@@ -1,0 +1,13 @@
+Para compilar
+   g++ -o particulas main.cpp tEspacio.cpp tParticula.cpp
+
+Para compilar con directivas de paralelismo
+   g++ -o particulas main.cpp tEspacio.cpp tParticula.cpp -fopenmp
+
+Para compilar con paralelismo multiMaquina
+requiere tener instalado MPI
+   
+    ./cp_mpi.sh
+    sudo apt-get install libcr-dev mpich2 mpich2-doc   <-- Instalar MPI
+
+   
